@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.vjm.cusomc.domain.Cliente;
-import com.vjm.cusomc.exceptions.ObjectNotFoundException;
 import com.vjm.cusomc.repositories.ClienteRepository;
+import com.vjm.cusomc.services.exceptions.ObjectNotFoundException;
 
 @Service
 public class ClienteService {

@@ -1,4 +1,4 @@
-package com.vjm.cusomc.exceptions;
+package com.vjm.cusomc.services.exceptions;
 
 public class ObjectNotFoundException extends RuntimeException {
 	
