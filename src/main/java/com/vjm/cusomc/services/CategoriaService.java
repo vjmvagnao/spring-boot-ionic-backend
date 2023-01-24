@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import com.vjm.cusomc.domain.Categoria;
 import com.vjm.cusomc.domain.Cliente;
 import com.vjm.cusomc.dto.CategoriaDTO;
-import com.vjm.cusomc.repositories.CategariaRepository;
+import com.vjm.cusomc.repositories.CategoriaRepository;
 import com.vjm.cusomc.services.exceptions.DataIntegrityException;
 import com.vjm.cusomc.services.exceptions.ObjectNotFoundException;
 
@@ -21,7 +21,7 @@ import com.vjm.cusomc.services.exceptions.ObjectNotFoundException;
 public class CategoriaService {
 	
 	@Autowired
-	private CategariaRepository repo;
+	private CategoriaRepository repo;
 	
 	public Categoria find(Integer id) {
 		Optional<Categoria> obj = repo.findById(id);		

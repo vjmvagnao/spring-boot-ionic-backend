@@ -21,7 +21,7 @@ import com.vjm.cusomc.domain.Pedido;
 import com.vjm.cusomc.domain.Produto;
 import com.vjm.cusomc.domain.enums.EstadoPagamento;
 import com.vjm.cusomc.domain.enums.TipoCliente;
-import com.vjm.cusomc.repositories.CategariaRepository;
+import com.vjm.cusomc.repositories.CategoriaRepository;
 import com.vjm.cusomc.repositories.CidadeRepository;
 import com.vjm.cusomc.repositories.ClienteRepository;
 import com.vjm.cusomc.repositories.EnderecoRepository;
@@ -35,7 +35,7 @@ import com.vjm.cusomc.repositories.ProdutoRepository;
 public class CursomcApplication implements CommandLineRunner {
 	
 	@Autowired
-	private CategariaRepository caregoriaRepository;
+	private CategoriaRepository caregoriaRepository;
 	
 	@Autowired
 	private ProdutoRepository produtoRepository;

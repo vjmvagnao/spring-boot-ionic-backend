@@ -2,13 +2,14 @@ package com.vjm.cusomc.dto;
 
 import java.io.Serializable;
 
-import javax.validation.constraints.Size;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 import com.vjm.cusomc.domain.Cliente;
+import com.vjm.cusomc.services.validation.ClienteUpdate;
 
-
+@ClienteUpdate
 public class ClienteDTO implements Serializable {	
 	private static final long serialVersionUID = 1L;
 		
